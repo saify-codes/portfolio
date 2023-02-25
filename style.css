@@ -265,7 +265,8 @@ header .toggle__btn i{
 @media screen and (max-width:768px){
     .w-md-100{
         width: 100% !important;
-    }    
+    }
+    .section__2     
     .section__2 .wrapper {
         grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     }
