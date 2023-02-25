@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Portfolio</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Nav start -->
+        <header>
+            <div class="logo">
+                <h4>.Logo</h4>
+            </div>
+            <nav>
+                <ul>
+                    <li class="link__active"><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Testemonial</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+
+            <div class="toggle__btn">
+                <i class="bx bxl-dribbble"></i>
+                <i class="bx bxl-linkedin"></i>
+                <i id="toggle-menu" class="bx bx-menu-alt-right"></i>
+            </div>
+        </header>
+        <!-- Nav end -->
+
+        <!-- Main start -->
+        <div class="container section__1">
+            <div class="left__content z-1">
+                <h1>
+                    <span>I'm</span>
+                    <br />
+                    Muhammad Sarafarz Ahmed
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Obcaecati natus et necessitatibus laboriosam molestiae error
+                    dolor explicabo, deleniti magnam ipsum, reprehenderit,
+                    exercitationem sint placeat qui aspernatur minus odit at
+                    enim.
+                </p>
+            </div>
+
+            <div class="right__content z-1">
+                <h5>Services</h5>
+                <p>
+                    Let's build quality products in programming and design with
+                    my services
+                </p>
+                <a href="#">show more <i class="bx bxs-right-arrow-alt"></i></a>
+                <div class="social__media__icons">
+                    <div class="icon"><i class="bx bxl-facebook"></i></div>
+                    <div class="icon"><i class="bx bxl-twitter"></i></div>
+                    <div class="icon"><i class="bx bxl-instagram"></i></div>
+                    <div class="icon"><i class="bx bxl-pinterest"></i></div>
+                </div>
+            </div>
+            <div class="center__content">
+                <img
+                    class="z-2 position-relative"
+                    src="./potrait.png"
+                    alt="avatar"
+                />
+            </div>
+        </div>
+        <!-- Main end -->
+
+        <!-- service start -->
+        <div class="container-fluid section__2 py-5">
+            <div class="container">
+                <div class="button">
+                    <img width="100" src="./meta.png" alt="logo" />
+                </div>
+                <div class="button">
+                    <img width="100" src="./google.png" alt="logo" />
+                </div>
+                <div class="button">
+                    <img width="100" src="./linkedin.png" alt="logo" />
+                </div>
+                <div class="button">
+                    <img width="100" src="./slack.png" alt="logo" />
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1>What can I do for your needs</h1>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- service end -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            var toggle_menu_btn = document.querySelector("#toggle-menu");
+            var navbar = document.querySelector("header nav ul");
+            toggle_menu_btn.addEventListener("click", () => {
+                navbar.classList.toggle("active");
+            });
+        </script>
+    </body>
+</html>
