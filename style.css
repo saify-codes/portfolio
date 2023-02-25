@@ -248,7 +248,7 @@ header .toggle__btn i{
     display: flex;
     align-items: center;
     color: #fff;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #7c7e8d;
     padding-block: 25px;
 }
 .section__2 .img__wrapper img{
@@ -266,6 +266,9 @@ header .toggle__btn i{
     .w-md-100{
         width: 100% !important;
     }    
+    .section__2 .wrapper {
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    }
 }
 
 
