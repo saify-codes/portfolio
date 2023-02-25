@@ -230,3 +230,60 @@ header .toggle__btn i{
 .section__2 .button:hover{
     scale: .9;
 }
+
+.section__2 .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,200px);
+}
+.section__2 .wrapper div{
+    padding: 15px 0;
+}
+.section__2 .wrapper h3{
+    color: #e4b857;
+}
+.section__2 .wrapper strong{
+    color: #fff;
+}
+.section__2 .img__wrapper{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding-block: 25px;
+}
+.section__2 .img__wrapper img{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 25px;
+}
+.section__2 .img__wrapper .arrow{
+    color: #e4b857;
+    font-size: 2em;
+}
+
+@media screen and (max-width:768px){
+    .w-md-100{
+        width: 100% !important;
+    }    
+}
+
+
+@media screen and (max-width:570px){
+    .section__2 .img__wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+    }  
+    .section__2 .img__wrapper img{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .section__2 .img__wrapper > div{
+        width: 100%;
+    }
+
+}
+
+
+/* Utilities */
+/* Utilities */
